@@ -52,7 +52,7 @@
       '\\nService: ' + data.get('service') + '\\n\\nProperty details:\\n' + data.get('message')
     );
     document.getElementById('form-note').textContent = 'Opening your email app with the enquiry details…';
-    window.location.href = 'mailto:hello@EBN Property Managementproperty.com?subject=' + subject + '&body=' + body;
+    window.location.href = 'mailto:hello@Zarroll Facility Managementproperty.com?subject=' + subject + '&body=' + body;
   });
 
   // Homepage hero carousel: auto-advance, arrows, dots and pause-on-hover.
